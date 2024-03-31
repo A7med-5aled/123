@@ -1,0 +1,94 @@
+*{
+  /* -webkit-box-sizing: border-box;
+  box-sizing: border-box; */
+  margin:0;
+  padding:0;
+  
+
+}
+body{
+  background-color: rgb(179, 121, 94);
+}
+.shape1{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(119, 119, 90);
+  
+}
+.bigC{
+  background-color: rgb(224, 38, 106);
+  width:120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.smallC{
+  background-color: rgb(175, 131, 80);
+  width:80px;
+  height: 80px;
+  border-radius: 50%;
+
+}
+
+.shape2{
+  width:50%;
+  height:130px;
+  background-color: rgb(73, 29, 155);
+  transform: translateY(-50px);
+  margin:0 auto;
+  text-align: center;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+ border:solid 20px rgb(5, 5, 1) ;
+ 
+}
+
+
+.shape2 p{
+  color:white;
+  font-size:60px;
+  text-shadow:rgb(90, 169, 233) 3px 3px ,rgb(0, 0, 0) 6px 6px;
+}
+.shape2 p .s1{
+  color:rgb(155, 23, 23);
+  font-size:50px;
+}
+.shape2 p .s2{
+  color:rgb(192, 38, 123);
+  font-size:55px;
+}
+.shape2 p .s3{
+  color:rgb(40, 245, 183);
+  font-size:55px;
+
+}
+.shape2 input {
+  height:40px;
+  width:300px;
+  font-size:30px;
+  text-align: center;
+  color:rgb(211, 6, 6)
+}
+
+.shape2 button {
+
+  font-size:30px;
+  font-weight: 900;
+  text-align: center;
+  padding:10px 20px;
+  color:rgb(17, 13, 14)
+}
+.shape2 button:hover {
+
+  background-color: blue;
+}
+ 
+  
+@media (max-width:768px){
+  .shape2{
+    width: 98%;
+    border:solid 2px rgb(5, 5, 1) ;
+  }
+  #lifta{
+     font-size:20px;
+  }}
